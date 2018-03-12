@@ -1,0 +1,35 @@
+.hero-img {
+	    background-image: url(../img/billboard.jpg);
+        height: 650px;
+	    width: 100%;
+}
+
+.hero-headline {
+    font-size: 27px;
+    text-transform: uppercase;
+    font-weight: 100;
+    background-color: #fffffd8c;
+    padding: 10px;
+}
+
+.hero-spacer {
+    height: 250px;
+}
+
+	.hero-spacer {
+		height: 135px;
+	}
+
+
+	@media screen and (max-width: 767px) {
+		.hero-img {
+		    background-size: cover;
+		    background-repeat: no-repeat;
+	        height: 294px;
+		}
+
+		.hero-headline {
+		    padding: 5px;
+		}	
+	}
+	

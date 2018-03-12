@@ -1,0 +1,28 @@
+.grid-section-h2 {
+		text-align: left;
+}
+
+.grid-section-space {
+	padding-bottom: 30px;
+}
+
+.grid-section-text {
+	text-align: left;
+    padding-bottom: 30px;
+}
+
+.grid-section-link {
+    color: #484040c7;
+    margin-right: 5px;
+}
+
+	@media screen and (max-width: 767px) {
+		.grid-section-space {
+		    padding-bottom: 30px;
+		    padding-top: 35px;
+		}
+
+		.grid-section-text {
+		    padding-bottom: 60px;
+		}
+	}

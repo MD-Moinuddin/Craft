@@ -1,0 +1,28 @@
+.footer-logo {
+    width: 18%;
+    margin-top: 35px;
+    margin-left: 180px;
+    margin-bottom: 35px;
+}
+
+.footer-peragraph {
+    color: #353232;
+    font-size: 11px;
+    margin-left: 25px;
+}
+
+	@media screen and (max-width: 767px) {
+		.footer-logo {
+		    width: 15%;
+		    margin-top: 35px;
+		    margin-left: 215px;
+		    margin-bottom: 35px;
+		}
+
+
+		.footer-peragraph {
+		    padding: 10px 20px 70px 14px;
+		    font-size: 25px;
+		    text-align: center;
+		}
+	}

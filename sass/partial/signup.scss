@@ -1,0 +1,62 @@
+.signup-section-headline {
+	    font-size: 31px;
+	    color: #656060e0;
+	    width: 100%;
+}
+
+.section-5-span {
+	font-size: 16px;
+	color: #a29090;
+}
+
+
+.btn-more {
+    padding: 15px 60px;
+    border-radius: initial;
+    flex-direction: center;
+    margin: auto;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1aaf86d1;
+    border-color: #1aaf86d1;
+
+    :hover {
+	    color: #fff;
+	    background-color: #1aaf86d1;
+	    border-color: #1aaf86d1;
+	}
+
+	.active {
+		border: none;
+	}
+}
+
+.signup-section {
+	text-align: center;
+}
+
+.signup-peragraph-width {
+	width: 100%;
+    padding-bottom: 30px;
+    color: #867474de;
+}
+
+	@media screen and (max-width: 767px) {
+		.signup-section-headline {
+		    font-size: 60px;
+		}
+
+		.signup-peragraph-width {
+		    padding: 30px 0 40px 0;
+		    color: #867474;
+		    font-size: 30px;
+		}
+
+		.btn-more {
+		    padding: 25px 130px;
+		    margin: auto;
+		    font-size: 30px;
+		}
+	}
